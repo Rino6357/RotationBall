@@ -40,7 +40,7 @@ private:
 	sf::Vector2f m_position{};
 	sf::Vector2f m_velocity{}; // units per second
 	sf::CircleShape m_structure{};
-	float speed{ 300.f };
+	float speed{ 600.f };
 
 	// Mass for physics (proportional to area)
 	float m_mass{ 1.f };
