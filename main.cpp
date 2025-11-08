@@ -10,7 +10,7 @@ int main()
     // Virtual coordinate space used by your game logic / world
     const sf::Vector2f virtualSize(600.f, 600.f);
 
-    sf::RenderWindow window(sf::VideoMode({ 600, 600 }), "SFML works!");
+    sf::RenderWindow window(sf::VideoMode({ 600, 600 }), "Ball Rotation");
     sf::Clock clock{};
 
     // Setup a view that maps the virtual coordinate space (600x600) to the window.
